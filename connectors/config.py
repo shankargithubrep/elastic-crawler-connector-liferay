@@ -112,6 +112,7 @@ def _default_config():
             "log_level": "INFO",
         },
         "sources": {
+            "aihub_multitenant": "connectors.sources.aihub_multitenant:AiHubMultiTenantDataSource",
             "azure_blob_storage": "connectors.sources.azure_blob_storage:AzureBlobStorageDataSource",
             "box": "connectors.sources.box:BoxDataSource",
             "confluence": "connectors.sources.confluence:ConfluenceDataSource",
